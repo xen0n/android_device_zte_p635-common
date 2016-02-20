@@ -1,0 +1,8 @@
+# xen0n-specific policies
+
+type proj_dev_setup_exec, exec_type, file_type;
+type proj_dev_setup, domain;
+
+
+permissive proj_dev_setup;
+init_daemon_domain(proj_dev_setup)
