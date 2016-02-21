@@ -65,7 +65,7 @@ int mtk_init(const bt_vendor_callbacks_t* p_cb, unsigned char *local_bdaddr) {
   mtk_bt_disable = dlsym(mtklib_handle, "mtk_bt_disable");
 
   if ((dlerrors = dlerror()) != NULL){
-    ALOGE("Errors while opening symbols from mtk blob");
+    ALOGE("Errors while opening symbols from mtk blob: %s", dlerrors);
     dlclose(mtklib_handle);
   }
   return 0;
