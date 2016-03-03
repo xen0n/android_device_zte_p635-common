@@ -82,6 +82,9 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/cdma_call_conf.xml:system/etc/cdma_call_conf.xml \
 
 # GPS
+PRODUCT_PACKAGES += \
+    libcurl \
+
 PRODUCT_COPY_FILES += \
      $(LOCAL_PATH)/configs/agps_profiles_conf2.xml:system/etc/agps_profiles_conf2.xml
 
