@@ -26,6 +26,11 @@ PRODUCT_LOCALES := zh_CN zh_HK zh_TW
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
     persist.sys.timezone=Asia/Shanghai
 
+# bypass most of MTK "customizations"
+# fxxk this seems to break the (already *very* broken) telephony...
+#PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
+#    ro.mtk_bsp_package=1
+
 # init
 PRODUCT_PACKAGES += \
     proj-dev-setup
