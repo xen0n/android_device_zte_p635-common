@@ -40,8 +40,8 @@ PRODUCT_PACKAGES += \
     libgralloc_extra \
 
 # Lights
-#PRODUCT_PACKAGES += \
-#    lights.mt6735
+PRODUCT_PACKAGES += \
+    lights.mt6735
 
 # Audio
 PRODUCT_PACKAGES += \
