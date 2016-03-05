@@ -244,4 +244,9 @@
     -->
     <bool name="config_enableWifiDisplay">true</bool>
 
+    <!-- Support for disabling to fetch APN from OMH card
+         for some cdma carriers -->
+    <!-- MTK doesn't have the necessary RIL feature for this (CDMA APN profiles) -->
+    <bool name="config_fetch_apn_from_omh_card">false</bool>
+
 </resources>
