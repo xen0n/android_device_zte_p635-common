@@ -38,6 +38,7 @@ PRODUCT_PACKAGES += \
 # Display
 PRODUCT_PACKAGES += \
     libgralloc_extra \
+    libion_mtk \
 
 # Lights
 PRODUCT_PACKAGES += \
