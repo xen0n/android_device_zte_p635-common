@@ -22,11 +22,19 @@ Working:
 * GSM/WCDMA voice calls
 * CDMA and GSM SMS
 
+Mostly working:
+
+* CDMA 3G data connectivity
+    - Initial attach APNs are set correctly for both CDMA and GSM subscriptions
+    - Attaching works at first boot
+    - But not working anymore after toggling data switch
+
 Not working but TODO:
 
 * CDMA voice calls
-* VoLTE
-* Data connectivity
+* SVLTE data connectivity
+* SIM switching
+* VoLTE; this one is *huge* amount of work, hence priority is lower.
 
 Mostly out of reach if not outright impossible:
 
