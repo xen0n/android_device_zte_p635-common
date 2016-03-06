@@ -85,6 +85,10 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/spn-conf.xml:system/etc/spn-conf.xml \
     $(LOCAL_PATH)/configs/cdma_ecc_list.xml:system/etc/cdma_ecc_list.xml \
     $(LOCAL_PATH)/configs/cdma_call_conf.xml:system/etc/cdma_call_conf.xml \
+    $(LOCAL_PATH)/configs/virtual-spn-conf-by-imsi.xml:system/etc/virtual-spn-conf-by-imsi.xml \
+    $(LOCAL_PATH)/configs/virtual-spn-conf-by-efpnn.xml:system/etc/virtual-spn-conf-by-efpnn.xml \
+    $(LOCAL_PATH)/configs/virtual-spn-conf-by-efspn.xml:system/etc/virtual-spn-conf-by-efspn.xml \
+    $(LOCAL_PATH)/configs/virtual-spn-conf-by-efgid1.xml:system/etc/virtual-spn-conf-by-efgid1.xml \
 
 # GPS
 PRODUCT_PACKAGES += \
