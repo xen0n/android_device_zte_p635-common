@@ -168,6 +168,8 @@
       type="default,dun,xcap"
       mvno_type="spn"
       mvno_match_data="中国电信"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="CTWAP"
@@ -419,15 +421,6 @@
       type="default,supl"
   />
 
-  <apn carrier="Virgin"
-      mcc="208"
-      mnc="01"
-      apn="ofnew.fr"
-      user="orange"
-      password="orange"
-      type="default,supl"
-  />
-
   <apn carrier="Orange World"
       mcc="208"
       mnc="01"
@@ -474,6 +467,28 @@
       mnc="01"
       apn=""
       type="ia"
+  />
+
+  <apn carrier="Orange IMS APN"
+      mcc="208"
+      mnc="01"
+      apn="ims"
+      type="ims"
+  />
+
+  <apn carrier="Orange"
+      mcc="208"
+      mnc="01"
+      apn="nisginet"
+      authtype="1"
+      type="default,supl,xcap"
+  />
+
+  <apn carrier="Orange WFC APN"
+      mcc="208"
+      mnc="01"
+      apn="wifi-service"
+      type="fast"
   />
 
   <apn carrier="MMS Orange GPRS"
@@ -3258,6 +3273,15 @@
       type="mms"
   />
 
+  <apn carrier="Beeline"
+      mcc="250"
+      mnc="99"
+      apn="ims.beeline.ru"
+      type="ims"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+  />
+
   <apn carrier="MTS-MMS"
       mcc="255"
       mnc="01"
@@ -3505,13 +3529,15 @@
       mmsc="http://mms.t-mobile.de/servlets/mms"
       mmsproxy="172.28.23.131"
       mmsport="8008"
+      type="default,supl,mms"
   />
 
-  <apn carrier="Telekom Internet"
+  <apn carrier="Telekom Deutschland"
       mcc="262"
       mnc="01"
-      apn=""
-      type="ia"
+      apn="ims"
+      type="is,ims"
+      protocol="IPV4V6"
   />
 
   <apn carrier="Vodafone DE-MMS"
@@ -3536,8 +3562,8 @@
       mnc="02"
       apn="ims"
       type="ims"
-      protocol="IPV4V6"
-      roaming_protocol="IPV4V6"
+      protocol="IPV6"
+      roaming_protocol="IPV6"
   />
 
   <apn carrier="Vodafone DE"
@@ -3545,6 +3571,14 @@
       mnc="02"
       apn=""
       type="ia"
+  />
+
+  <apn carrier="Vodafone DE HOS"
+      mcc="262"
+      mnc="02"
+      apn="hos"
+      type="wod"
+      protocol="IPV4"
   />
 
   <apn carrier="E-Plus Web GPRS"
@@ -3635,6 +3669,14 @@
       mmsproxy="82.113.100.5"
       mmsport="8080"
       type="default,supl,mms"
+  />
+
+  <apn carrier="Telefonica/O2"
+      mcc="262"
+      mnc="07"
+      apn="ims"
+      type="default,ims"
+      protocol="IPV4V6"
   />
 
   <apn carrier="o2"
@@ -10376,6 +10418,8 @@
       type="default,dun"
       mvno_type="spn"
       mvno_match_data="中国电信"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
 ﻿  <apn carrier="CTNET"
@@ -10386,6 +10430,8 @@
       type="default,dun"
       mvno_type="spn"
       mvno_match_data="中国电信"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="CTWAP"
@@ -10574,6 +10620,8 @@
       type="default,dun"
       mvno_type="spn"
       mvno_match_data="中国电信"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
  <apn carrier="CTWAP"
@@ -10648,6 +10696,8 @@
       type="ia,default,dun"
       mvno_type="spn"
       mvno_match_data="中国电信"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="Cellcard WAP"
@@ -10828,6 +10878,15 @@
       protocol="IPV4V6"
   />
 
+
+  <apn carrier="中国联通 Ims 网络 (China Unicom)"
+      mcc="460"
+      mnc="01"
+      apn="ims"
+      type="default,supl"
+      protocol="IPV4V6"
+  />
+
   <apn carrier="沃宽带用户连接互联网"
       mcc="460"
       mnc="09"
@@ -10917,6 +10976,8 @@
       password="vnet.mobi" 
       type="default,dun" 
       ppp="#777"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="CTWAP" 
@@ -10942,6 +11003,8 @@
       password="vnet.mobi"
       type="default,dun"
       ppp="#777"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="CTNET" 
@@ -10952,6 +11015,7 @@
       type="ia,default,dun,supl" 
       ppp="#777"
       protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="CTWAP" 
@@ -11026,7 +11090,9 @@
       apn="ctnet" 
       user="ctnet@mycdma.cn" 
       password="vnet.mobi" 
-      type="default,dun" 
+      type="default,dun"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
   <apn carrier="CTWAP" 
       mcc="460" 
@@ -11046,7 +11112,9 @@
       apn="ctnet" 
       user="ctnet@mycdma.cn" 
       password="vnet.mobi" 
-      type="default,dun" 
+      type="default,dun"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
   />
 
   <apn carrier="CTWAP" 
@@ -11432,6 +11500,14 @@
   	type="mms" 
   />
 
+  <apn carrier="YTL"
+      mcc="502"
+      mnc="152"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+  />
 
   <apn carrier="Telstra MMS"
       mcc="505"
@@ -11702,6 +11778,15 @@
       mmsproxy="10.138.3.35" 
       mmsport="8080" 
       type="mms" 
+  />
+
+  <apn carrier="ims"
+      mcc="520"
+      mnc="03"
+      apn="ims"
+      type="ims"
+      protocol="IPV6"
+      roaming_protocol="IPV4"
   />
   
   <apn carrier="DTAC Internet" 
@@ -12190,7 +12275,16 @@
       port="8080"  
       type="default,supl"
   />
-  
+
+  <apn carrier="ims"
+      mcc="621"
+      mnc="40"
+      apn="ims"
+      type="ims"
+      protocol="IPV4"
+      roaming_protocol="IPV4"
+  />
+
   <apn carrier="MTN NG MMS" 
       mcc="621" 
       mnc="30" 
@@ -13924,7 +14018,16 @@
       mmsport="8080"
       type="mms"
   />
-  
+
+  <apn carrier="Smartfren"
+      mcc="510"
+      mnc="09"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
+      roaming_protocol="IPV4V6"
+  />
+
   <apn carrier="Telkomsel GPRS"
       mcc="510"
       mnc="10"
@@ -14032,6 +14135,39 @@
       mmsport="8080"
       type="mms"
   />
+
+  <apn carrier="Smartfren4g"
+      mcc="510"
+      mnc="09"
+      apn="Smartfren4g"
+      type="default"
+      protocol="IPV4V6"
+  />
+
+  <apn carrier="ims"
+      mcc="510"
+      mnc="09"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
+  />
+
+  <apn carrier="Smartfren4g"
+      mcc="510"
+      mnc="28"
+      apn="Smartfren4g"
+      type="default"
+      protocol="IPV4V6"
+  />
+
+  <apn carrier="ims"
+      mcc="510"
+      mnc="28"
+      apn="ims"
+      type="ims"
+      protocol="IPV4V6"
+  />
+
   <apn carrier="VOXWAP"
       mcc="744"
       mnc="01"
